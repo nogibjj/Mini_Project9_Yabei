@@ -18,7 +18,7 @@ This project provides a comprehensive data analysis for a car dataset, including
 The notebook provides a visual interface for data analysis. Ensure you have Jupyter installed and run:
 
 ```bash
-jupyter notebook your_notebook_name.ipynb
+jupyter notebook individual_project_1.ipynb
 ```
 
 ### Python Script
@@ -26,7 +26,7 @@ jupyter notebook your_notebook_name.ipynb
 To execute the standalone script:
 
 ```bash
-python your_script_name.py
+python script.py
 ```
 
 ### lib.py
