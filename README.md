@@ -73,7 +73,7 @@ Our repository uses GitHub Actions to automate the execution of all Makefile com
 
 ## Demo Video
 
-For a detailed walkthrough of the project and its functionality, please watch our [demo video](YOUR_YOUTUBE_LINK_HERE).
+For a detailed walkthrough of the project and its functionality, please watch our [demo video](https://www.youtube.com/watch?v=gKVrd4IMT4s).
 
 ## Results Preview
 
