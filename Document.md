@@ -1,4 +1,4 @@
-# Document: Data Manipulation Tasks in `main.py`
+# Document: Data Manipulation Tasks 
 ## 1. Data Preview
 
 Before diving into any data manipulation, the script first previews the dataset. This allows us to understand the structure of the data.
