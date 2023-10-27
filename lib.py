@@ -23,7 +23,7 @@ def data_visual(data):
         plt.show()
 
 def main():
-    my_df = load_data("cars.csv")
+    my_df = load_data("https://raw.githubusercontent.com/yabeizeng1121/Mini_Project5/main/cars.csv")
     print(data_summary(my_df))
     data_visual(my_df)
     
