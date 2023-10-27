@@ -2,7 +2,8 @@ from lib import data_summary, load_data, data_visual
 import pandas as pd
 
 def test_summary():
-    my_df = pd.read_csv('https://raw.githubusercontent.com/yabeizeng1121/Mini_Project5/main/cars.csv', sep=';')
+    path = 'https://raw.githubusercontent.com/yabeizeng1121/Mini_Project5/main/cars.csv'
+    my_df = pd.read_csv(path, sep=';')
     summary = data_summary(my_df)
     mean = my_df['Weight'].mean()
     median = my_df['Weight'].median()
