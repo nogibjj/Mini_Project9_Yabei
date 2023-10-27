@@ -34,4 +34,4 @@ This repository contains a `Makefile` that automates certain tasks to ease the s
 
 
 ### Document
-The repository includes a `document` markdown file that details all the data manipulation tasks. You can find it [here](https://github.com/nogibjj/Mini_Project9_Yabei/blob/main/Document.md)https://github.com/nogibjj/Mini_Project9_Yabei/blob/main/Document.md)
+The repository includes a `document` markdown file that details all the data manipulation tasks. You can find it [here](https://github.com/nogibjj/Mini_Project9_Yabei/blob/main/Document.md)
