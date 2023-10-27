@@ -6,7 +6,7 @@ from lib import load_data, data_summary
 class TestScript(unittest.TestCase):
 
     def setUp(self):
-        self.data_path = "cars.csv"
+        self.data_path = "https://raw.githubusercontent.com/yabeizeng1121/Mini_Project5/main/cars.csv"
         self.df = pd.read_csv(self.data_path, sep=';')
 
 
