@@ -2,7 +2,7 @@
 # Mini Project 9
 
 ## Google Collab
-https://colab.research.google.com/github/nogibjj/Mini_Project9_Yabei/blob/main/Mini_Project9.ipynb
+[https://colab.research.google.com/github/nogibjj/Mini_Project9_Yabei/blob/main/Mini_Project9.ipynb](https://colab.research.google.com/github/nogibjj/Mini_Project9_Yabei/blob/main/Mini_Project9.ipynb)
 
 This project provides a comprehensive data analysis for a car dataset, including a Jupyter notebook, a Python script, shared library functions, and automated testing and linting via Makefile and GitHub Actions.
 
