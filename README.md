@@ -1,90 +1,37 @@
-[![CI](https://github.com/yabeizeng1121/individual_project_1/actions/workflows/cicd.yml/badge.svg)](https://github.com/yabeizeng1121/individual_project_1/actions/workflows/cicd.yml)
-# Mini Project 9
+# Mini Project 9: Cloud-Hosted Notebook Data Manipulation
 
-## Google Collab
-[https://colab.research.google.com/github/nogibjj/Mini_Project9_Yabei/blob/main/Mini_Project9.ipynb](https://colab.research.google.com/github/nogibjj/Mini_Project9_Yabei/blob/main/Mini_Project9.ipynb)
+## Introduction
+In this project, we leverage the capabilities of cloud-hosted Jupyter Notebooks, specifically Google Colab, to perform data manipulation tasks on a sample dataset. The power of cloud computing allows us to handle, transform, and analyze data seamlessly without any local dependencies.
 
-This project provides a comprehensive data analysis for a car dataset, including a Jupyter notebook, a Python script, shared library functions, and automated testing and linting via Makefile and GitHub Actions.
+## Purpose of the Project
+The main objective of this project is:
+- To understand and set up a cloud-hosted Jupyter Notebook.
+- To gain hands-on experience in performing data manipulation tasks in a cloud environment.
 
-## Project Structure
+## Preparation
+### Setting up the environment
+1. The project uses Google Colab as the cloud-hosted Jupyter Notebook platform.
+2. To replicate and run the notebook:
+   - Visit [Google Colab](https://colab.research.google.com/github/nogibjj/Mini_Project9_Yabei/blob/main/main.ipynb#scrollTo=5e8847be-469e-4739-80eb-ee48a754450e)
+   - Click on `Open Notebook` and select the Jupyter Notebook (`.ipynb` file) from this repository.
 
-- **Jupyter Notebook**: A detailed notebook that demonstrates the data analysis process.
-- **Python Script**: A standalone script for data analysis.
-- **lib.py**: A shared library that contains common functions used by both the notebook and the script.
-- **Makefile**: Automates the testing, linting, and formatting processes.
-- **Requirements.txt**: Lists all the necessary Python packages for this project.
-
-## Usage
-
-### Jupyter Notebook
-
-The notebook provides a visual interface for data analysis. Ensure you have Jupyter installed and run:
-
-```bash
-jupyter notebook individual_project_1.ipynb
-```
-
-### Python Script
-
-To execute the standalone script:
-
-```bash
-python script.py
-```
-
-### lib.py
-
-This shared library contains essential functions for data analysis. It's used by both the notebook and the script.
-
-### Makefile
-
-The Makefile automates several tasks:
-
-1. **Running Tests**: This will run tests for the notebook, script, and lib.
-
-```bash
-make test
-```
-
-2. **Formatting Code**: This will format the code using Python black.
-
-```bash
-make format
-```
-
-3. **Linting Code**: This will lint the code using Ruff.
-
-```bash
-make lint
-```
-
-### Testing
-
-- **nbval plugin for pytest**: The Jupyter notebook is tested using the nbval plugin for pytest.
-- **test_script.py**: Contains tests for the Python script.
-- **test_lib.py**: Contains tests for the shared library.
-
-To install the required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-## GitHub Actions
-
-Our repository uses GitHub Actions to automate the execution of all Makefile commands. Check the badges in this README for the status of each action.
-
-## Demo Video
-
-For a detailed walkthrough of the project and its functionality, please watch this [demo video](https://www.youtube.com/watch?v=gKVrd4IMT4s).
-
-## Results Preview
-
-![fa3fdf4db75f7bbeed04df7edf7c7ff](https://github.com/yabeizeng1121/individual_project_1/assets/143656459/9f2be7eb-207c-40fb-b969-0ba41fb75eec)
-![e236add49ed5c7f6bf6055e0dd7b4de](https://github.com/yabeizeng1121/individual_project_1/assets/143656459/67009f50-52ba-4a33-9b5a-c5f2d99469b9)
-![f916a1b82419c7d2635d4aef5abc473](https://github.com/yabeizeng1121/individual_project_1/assets/143656459/87085dc6-87e7-4aed-90b9-b393276d6007)
-![398489789ca503ed1e7202aa269d2a7](https://github.com/yabeizeng1121/individual_project_1/assets/143656459/c290a8b9-346d-40b5-b8fa-2d55886b8dfb)
-![300f3d230e1ce6a584c70013bb155ad](https://github.com/yabeizeng1121/individual_project_1/assets/143656459/ce469437-c82d-4904-a671-afeb9a678e5e)
-![538f5fbef792e6c2a6111de6ef25136](https://github.com/yabeizeng1121/individual_project_1/assets/143656459/d0963fd9-e701-4f3e-9547-943f5902c786)
+### Using the Makefile
+This repository contains a `Makefile` that automates certain tasks to ease the setup and execution process. To utilize it:
+1. Navigate to the project's root directory.
+2. Run the appropriate `make` commands. For example:
+- lint
+   ```bash
+   make lint
+   ```
+- test
+   ```bash
+   make test
+   ```
+- generate and push
+   ```bash
+   make generate_and_push
+   ```
 
 
+### Document
+The repository includes a `document` markdown file that details all the data manipulation tasks. You can find it [here](/workspaces/Mini_Project9_Yabei/Document.md)
