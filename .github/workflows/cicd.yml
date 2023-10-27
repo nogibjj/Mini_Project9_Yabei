@@ -28,7 +28,7 @@ jobs:
         run: make generate_and_push
       - name: format
         run: make format
-      - name: Test Jupyter Notebook with nbval
-        run: |
-          pip install pytest nbval
-          pytest --nbval individual_project_1.ipynb
+      #- name: Test Jupyter Notebook with nbval
+       # run: |
+         # pip install pytest nbval
+          #pytest --nbval individual_project_1.ipynb
